@@ -4,7 +4,6 @@ import { Crete_Round, Inter, Work_Sans } from 'next/font/google'
 import { ChildProps } from '../types'
 import './globals.css'
 import { Toaster } from 'sonner'
-import NextTopLoader from 'Nextjs-topLoader'
 
 const inter = Inter({ subsets: ['latin'] })
 const createRound = Crete_Round({
@@ -57,7 +56,6 @@ export default function RootLayout({ children }: ChildProps) {
 					enableSystem
 					disableTransitionOnChange
 				>
-					<NextTopLoader showSpinner={false} />
 					{children}
 					<Toaster position='top-center' />
 				</ThemeProvider>
