@@ -18,7 +18,7 @@ const workSans = Work_Sans({
 	variable: '--font-workSans',
 })
 export const metadata: Metadata = {
-	metadataBase: new URL('https://test-blog.sammi.ac'),
+	metadataBase: new URL('https://test-blog.com'),
 	title: 'Dasturlashga oid maqolalar',
 	description:
 		'Dasturlash haqida yangiliklar, maslahatlar, va dasturlash sohasidagi eng soʻnggi xabarlar. Bizning blogda dasturlashni oʻrganish va rivojlantirish uchun qoʻllanma topishingiz mumkin.',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 			url: 'https://portfolio-abdulhaqdev-1nbb.vercel.app',
 		},
 	],
-	icons: { icon: '/public/author//images.png' },
+	icons: { icon: '/public/author//images.pngx' },
 	keywords:
 		" dasturlash, dasturlashga oid darslar, reactjs uzbek tilida, vuejs uzbek tilida, redux uzbek tilida, sammi, sammi academy, bepul dasturlash, rezyume yozish, portfolio, sammi javascript, sammi raqamli avlod, javascript, reactjs, vuejs, javascript darslari, reactjs darslari, vuejs darslari, dasturlash darslari, o'zbek tilida dasturlash, reactjs o'zbek tilida, reactjs darslari o'zbek tilida, javascript darslari, javascript darslari o'zbek tilida, dasturash darslari o'zbek tilida, dasturlashni o'rganish, dasturlash, IT loyihalar o'zbek tilida",
 	openGraph: {
@@ -38,8 +38,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		url: 'https://test-blog.com',
 		locale: 'en_EN',
-		images:
-			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq22kijz_4_RbxKO_SQzW5oL9rsux7F0Mbtiv94XIjTDkcveCu-WoJ3K0OrpwW2yMLIc4&usqp=CAU',
+		images: '/public/author/images.png',
 		countryName: 'Uzbekistan',
 		siteName: 'My blog',
 		emails: 'nadirovabdulhaq@gmail.com',
