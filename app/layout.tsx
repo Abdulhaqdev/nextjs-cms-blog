@@ -4,6 +4,7 @@ import { Crete_Round, Inter, Work_Sans } from 'next/font/google'
 import { ChildProps } from '../types'
 import './globals.css'
 import { Toaster } from 'sonner'
+import NextTopLoader from 'nextjs-toploader'
 
 const inter = Inter({ subsets: ['latin'] })
 const createRound = Crete_Round({
@@ -37,7 +38,8 @@ export const metadata: Metadata = {
 		type: 'website',
 		url: 'https://test-blog.com',
 		locale: 'en_EN',
-		images: 'https://media.graphassets.com/kXL006lyRnW46IKTHdHs',
+		images:
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq22kijz_4_RbxKO_SQzW5oL9rsux7F0Mbtiv94XIjTDkcveCu-WoJ3K0OrpwW2yMLIc4&usqp=CAU',
 		countryName: 'Uzbekistan',
 		siteName: 'My blog',
 		emails: 'nadirovabdulhaq@gmail.com',
@@ -56,6 +58,7 @@ export default function RootLayout({ children }: ChildProps) {
 					enableSystem
 					disableTransitionOnChange
 				>
+					<NextTopLoader />
 					{children}
 					<Toaster position='top-center' />
 				</ThemeProvider>
