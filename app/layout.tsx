@@ -5,6 +5,7 @@ import { ChildProps } from '../types'
 import './globals.css'
 import { Toaster } from 'sonner'
 import NextTopLoader from 'nextjs-toploader'
+import { url } from 'inspector'
 
 const inter = Inter({ subsets: ['latin'] })
 const createRound = Crete_Round({
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 	],
 	icons: { icon: '/public/author//images.pngx' },
 	keywords:
-		" dasturlash, dasturlashga oid darslar, reactjs uzbek tilida, vuejs uzbek tilida, redux uzbek tilida, sammi, sammi academy, bepul dasturlash, rezyume yozish, portfolio, sammi javascript, sammi raqamli avlod, javascript, reactjs, vuejs, javascript darslari, reactjs darslari, vuejs darslari, dasturlash darslari, o'zbek tilida dasturlash, reactjs o'zbek tilida, reactjs darslari o'zbek tilida, javascript darslari, javascript darslari o'zbek tilida, dasturash darslari o'zbek tilida, dasturlashni o'rganish, dasturlash, IT loyihalar o'zbek tilida",
+		" dasturlash, dasturlashga oid darslar, reactjs uzbek tilida, vuejs uzbek tilida, redux uzbek tilida,  academy, bepul dasturlash, rezyume yozish, portfolio,  javascript,  raqamli avlod, javascript, reactjs, vuejs, javascript darslari, reactjs darslari, vuejs darslari, dasturlash darslari, o'zbek tilida dasturlash, reactjs o'zbek tilida, reactjs darslari o'zbek tilida, javascript darslari, javascript darslari o'zbek tilida, dasturash darslari o'zbek tilida, dasturlashni o'rganish, dasturlash, IT loyihalar o'zbek tilida",
 	openGraph: {
 		title: 'Dasturlashga oid maqolalar',
 		description:
@@ -38,7 +39,11 @@ export const metadata: Metadata = {
 		type: 'website',
 		url: 'https://test-blog.com',
 		locale: 'en_EN',
-		images: '/public/author/images.png',
+		images: [
+			{
+				url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq22kijz_4_RbxKO_SQzW5oL9rsux7F0Mbtiv94XIjTDkcveCu-WoJ3K0OrpwW2yMLIc4&usqp=CAU',
+			},
+		],
 		countryName: 'Uzbekistan',
 		siteName: 'My blog',
 		emails: 'nadirovabdulhaq@gmail.com',
